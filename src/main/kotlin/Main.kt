@@ -23,6 +23,7 @@ fun main(args: Array<String>) {
 
     val javaConstructor = Test.Test1::class.java.getConstructor()
             ?: error("Did not find constructor")
+    javaConstructor.isAccessible = true
 
     val instance = javaConstructor.newInstance()
 
