@@ -7,13 +7,6 @@
     <groupId>de.mhlz</groupId>
     <artifactId>playground</artifactId>
     <version>1.0-SNAPSHOT</version>
-<distributionManagement>
-    <repository>
-        <id>arti</id>
-        <name>6dbc7f0ea7dc-releases</name>
-        <url>http://ilu.st:8081/artifactory/libs-snapshot</url>
-    </repository>
-</distributionManagement>
 
     <properties>
         <kotlin.version>1.1.2-2</kotlin.version>
